@@ -5,6 +5,6 @@ def line(line)
     puts "The line is currently empty."
   else 
     current_line = "The line is currently: "
-    line.each.
+    line.each.with_index
   end
 end
