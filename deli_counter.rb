@@ -6,5 +6,5 @@ def line(line)
   else
     current_line = "The line is currently: "
     
-    line.map.with_index {|name, index|  #{index+1}. #{name} "}
+    current_line << line.map.with_index {|name, index|  #{index+1}. #{name} "}
 end
