@@ -7,5 +7,6 @@ def line(line)
     current_line = "The line is currently: "
     line.each.with_index do |name, index|
       current_line << "#{index+1}. #{name} "
+    end
   end
 end
