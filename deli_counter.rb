@@ -6,5 +6,4 @@ def line(line)
   end 
     
   line.map.with_index {|name, index| "The line is currently: #{index+1}. #{name} "}
-  end 
 end
